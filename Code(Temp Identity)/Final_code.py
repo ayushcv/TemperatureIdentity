@@ -86,7 +86,7 @@ while True:
                     cv2.putText(img, myData + ' User Detected', (x - 50,y + h +50 ), cv2.FONT_HERSHEY_COMPLEX, 1,(0, 0, 0), 2)
                     cv2.rectangle(img, (x + 20 , y + 20), (x + 100, y + 10 ), (0, 0, 255), 2)
 
-                    #Algor for x axis with ranges. These ranges are evenly dived to cover the whole range of movements.
+                    #Algor for x axis with ranges. These ranges are evenly divided to cover the whole range of movements.
                     #The ranges are calculated with averages and the degrees which are evenly divided.
                     if x == 0:
                         pwm.start(12)
