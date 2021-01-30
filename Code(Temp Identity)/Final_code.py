@@ -1,5 +1,5 @@
 #By Ayush Singh
-#Libraries are imported to help use methods which allow the use of various methods
+#Libraries are imported to help use methods which allow the use of various objects
 import sys
 import os
 #imports the Computer Vision Libraries
